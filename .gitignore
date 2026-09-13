@@ -1,0 +1,31 @@
+# Dependencies
+node_modules/
+
+# AI / IDE local settings
+.agents/
+.claude/
+.cursor/
+.devin/
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Build
+dist/
+
+# Test
+coverage/
+
+# Logs
+*.log
+
+# Temporary / backup files
+.~*
+*~
+*.tmp
+
+# OS
+.DS_Store
+Thumbs.db
